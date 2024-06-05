@@ -174,8 +174,8 @@ function App() {
   return (
     <>
      
-<div className='w-screen h-fit flex justify-center bg-black' > 
-  <div className=" bg-white fit-content w-1/3 my-12 rounded-3xl shadow-2xl">
+ <div className='flex justify-center'>
+  <div className="  bg-white fit-content ml-8 max-w-screen my-12  md:max-w-[500px] h-full">
      <div className='relative flex mt-16'>
        <div className='w-1/2 ml-12'>
         <Btn icon={Back()}/>
@@ -277,9 +277,8 @@ function App() {
       </div>
     </div>
 
-   </div>
 
-
+</div>
 
       
 
@@ -292,6 +291,7 @@ function App() {
      
       
    </div>
+   
   
       
     

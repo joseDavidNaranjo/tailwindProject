@@ -1,0 +1,38 @@
+[
+  
+    {
+        "nombre": "Res.Altamira",
+        "Precio": 39.000,
+        "ubicacion": "Chacao,Caracas",
+        "habitaciones":2,
+        "baños":1,
+        "sala":1,
+        "coordenadas": "10.490630318241752, -66.8553911389754610.490630318241752, -66.85539113897546",
+        "cerca": ["2 hospitales","4 automercados","2 escuelas"],
+        "imagenes":["https://imgs.search.brave.com/BTr5vJZuS332PsGEd_xZLyO3cfoupekYBqt1RFKpyeM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vb2ZpY2luYS1l/bi1jaGFjYW8tZnVu/Y2lvbmFsLXktZXF1/aXBhZGEtRF9OUV9O/UF85MDE0ODQtTUxW/NDQxODEyMzk3NTRf/MTEyMDIwLVcud2Vi/cA",
+                    "https://imgs.search.brave.com/iq05_iUvw1Q8JVuvB3nOHME8eBCOVSIWDv4HjlIdcJc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWct/Y2wtMS50cm92aXQu/Y29tLzFsdHZ2YjF6/bjFPLzFsdHZ2YjF6/bjFPLjFfMTEuanBn",
+                    "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn",
+                "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn",
+                "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn"
+            ]
+      },
+
+      {
+        "nombre": "Res.Chacaito",
+        "Precio": 39.000,
+        "ubicacion": "Chacao,Caracas",
+        "habitaciones":2,
+        "baños":1,
+        "sala":1,
+        "coordenadas": "10.490630318241752, -66.8553911389754610.490630318241752, -66.85539113897546",
+        "cerca": ["2 hospitales","4 automercados","2 escuelas"],
+        "imagenes":["https://imgs.search.brave.com/BTr5vJZuS332PsGEd_xZLyO3cfoupekYBqt1RFKpyeM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vb2ZpY2luYS1l/bi1jaGFjYW8tZnVu/Y2lvbmFsLXktZXF1/aXBhZGEtRF9OUV9O/UF85MDE0ODQtTUxW/NDQxODEyMzk3NTRf/MTEyMDIwLVcud2Vi/cA",
+                    "https://imgs.search.brave.com/iq05_iUvw1Q8JVuvB3nOHME8eBCOVSIWDv4HjlIdcJc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWct/Y2wtMS50cm92aXQu/Y29tLzFsdHZ2YjF6/bjFPLzFsdHZ2YjF6/bjFPLjFfMTEuanBn",
+                    "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn",
+                "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn",
+                "https://imgs.search.brave.com/Yufqilr-T-o5nXX41htPTaVdV33uGdv_WI14HOHLSlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdh/bnVuY2lvcy5taXR1/bGEubmV0L3ZlbmRv/X2Nhc2FfMTA4MG0y/XzExaDE0YjhwX2Fs/dGFtaXJhX25vcnRl/XzQxNjAwOTk2NjQw/MjMzMTA5NjYuanBn"
+            ]
+      }
+  
+
+]

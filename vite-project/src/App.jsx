@@ -16,7 +16,7 @@ function App() {
     "nombre": "Res. Chacao Es Lindo ",
     "Precio": [39.000,"39.000"],
     "ubicacion": "Chacao,Caracas",
-    "habitaciones":["2 habitaaciones","1 Baño","2 Lavaderos","Sala de estar", "2 Estacionamientos"],
+    "habitaciones":["2","1 ","2 ","1", "2 "],
     "coordenadas": [10.489894, -66.860915],
     "cerca": ["2 hospitales","4 automercados","2 escuelas"],
     "imagenes":["https://imgs.search.brave.com/BTr5vJZuS332PsGEd_xZLyO3cfoupekYBqt1RFKpyeM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vb2ZpY2luYS1l/bi1jaGFjYW8tZnVu/Y2lvbmFsLXktZXF1/aXBhZGEtRF9OUV9O/UF85MDE0ODQtTUxW/NDQxODEyMzk3NTRf/MTEyMDIwLVcud2Vi/cA",
@@ -29,6 +29,38 @@ function App() {
     "Agente":"Anderson"  ,
      "direccion": "Av.Simon Bolivar 13, Res. Chacao, Chacao, Caracas"   
   };
+  
+
+ const habitaciones= [
+  { num: casa.habitaciones[0],
+    name: "Dormitorios",
+    icon :  Bed() 
+  },
+  {
+    num: casa.habitaciones[1],
+    name: "baño",
+    icon :  Bathroom() 
+  },
+  {
+    num: casa.habitaciones[2],
+    name: "Lavaderos",
+    icon :  wash() 
+  },
+  {
+    num: casa.habitaciones[3],
+    name: "Areas Comunes",
+    icon :  sala() 
+  },
+  {
+    num: casa.habitaciones[4],
+    name: "Parking",
+    icon :  parking() 
+  }
+ ]
+ 
+ 
+  
+   
 
   /* carrusel funcionamiento*/
    const imagenes= casa.imagenes
@@ -169,7 +201,7 @@ function App() {
 
 
   /* Botones iconos-strings*/
-
+  const cerca = casa.cerca;
 
   return (
     <>
@@ -248,12 +280,13 @@ function App() {
       <div>
        
         <div  className='mx-12 mt-12 flex flex-wrap justify-start'>
-          
-       <Caract icon={Bed()} texto={casa.habitaciones[0]}/>
-       <Caract icon={Bathroom()} texto={casa.habitaciones[1]}/>
-       <Caract icon = {wash()} texto={casa.habitaciones[2]}/>
-       <Caract icon={sala()} texto={casa.habitaciones[3]}/>
-       <Caract icon= {parking()}texto={casa.habitaciones[4]}/>
+        {habitaciones.map((habitaciones)=>{
+     
+          return(
+            <Caract  texto={habitaciones.name} num={habitaciones.num} icon= {habitaciones.icon}/>
+          );
+        })}
+   
        </div>
 
        <div className='mx-8'>
@@ -266,9 +299,12 @@ function App() {
 
        </div>
        <div className='mx-12 mt-12 flex flex-wrap justify-start'>
-       <Caract  texto={casa.cerca[0]}/>
-       <Caract texto={casa.cerca[1]}/>
-       <Caract  texto={casa.cerca[2]}/>
+        {cerca.map((cerca)=>{
+          return(
+            <Caract  texto={cerca}/>
+          );
+        })}
+ 
        </div>
        <div className=' m-12 rounded-b-xl h-320 justify-center bg-slate-200  '>
         <MyMap coordenadas ={casa.coordenadas}/>
